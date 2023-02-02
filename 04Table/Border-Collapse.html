@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border-Collapse</title>
+    <style>
+        table, th, td{
+            border: 3px solid gray;
+            border-radius: 50px;
+        }
+        th, td{
+            
+        }
+        table{
+            /* height: 200px; */
+            width: 150px;
+            border-collapse: collapse;
+            margin:                                                                                auto;
+        }
+        tbody{
+            text-align: right;
+            line-height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Data</caption>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>Jaymin</td>
+            </tr>
+            <tr>
+                <td>202</td>
+                <td>Gautam</td>
+            </tr>
+            <tr>
+                <td>303</td>
+                <td>Vivek</td>
+            </tr>
+            <tr>
+                <td>404</td>
+                <td>Mayur</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
