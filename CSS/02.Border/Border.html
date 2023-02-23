@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+    <style>
+        .item{
+            height: 200px;
+            width: auto;
+            background: lightgray;
+            margin: 50px;        
+            border-color: lightseagreen;
+            border-width: 15px;
+            border-style: solid;
+        }
+        .default{
+            /* border: 4px solid black; */
+            border-style: solid;
+            border-color: blue;
+            border-width: 1px 2px 3px 4px;
+            border-radius: 10% 20% 30% 40%;
+        }
+        .solid{
+            border-style: solid;
+        }
+        .dotted{
+            border-style: dotted;
+        }
+        .dashed{
+            border-style: dashed;
+        }
+        .double{
+            border-style: double;
+        }
+        .inset{
+            border-style: inset;
+        }
+        .outset{
+            border-style: outset;
+        }
+        .ridge{
+            border-style: ridge;
+        }
+        .groove{
+            border-style: groove;
+        }
+        .none{
+            border-style: none;
+        }
+        .hidden{
+            border-style: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="item default"></div>
+    <div class="item solid"></div>
+    <div class="item dashed"></div>
+    <div class="item dotted"></div>
+    <div class="item groove"></div>
+    <div class="item ridge"></div>
+    <div class="item double"></div>
+    <div class="item inset"></div>
+    <div class="item outset"></div>
+    <div class="item none"></div>
+    <div class="item hidden"></div>
+</body>
+</html>
