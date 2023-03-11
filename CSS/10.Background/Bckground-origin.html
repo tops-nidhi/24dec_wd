@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background-Origin</title>
+    <style>
+        div{
+            height: 250px;
+            width: 500px;
+            /* background: red; */
+            background: url(https://cdn.pixabay.com/photo/2013/07/13/11/44/penguin-158551__340.png);
+            background-size: 100% 100%;
+            margin: 5px auto;
+            border: 30px solid rgba(120, 255, 255, 0.5);
+            /* border: 30px solid yellow; */
+            padding: 20px;
+        }
+        .border-box{
+            background-origin: border-box;
+        }
+        .padding-box{
+            background-origin: padding-box;
+        }
+        .content-box{
+            background-origin: content-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="border-box">border-box</div>
+    <div class="padding-box">padding-box</div>
+    <div class="content-box">content-box</div>
+</body>
+</html>
